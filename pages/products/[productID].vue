@@ -1,25 +1,29 @@
 <template>
   <div>
-    <p><NuxtLink to="/products">View All Products</NuxtLink></p>
-    <p>
-      Product ID <span>{{ productID }}</span>
-    </p>
-    <p>
-      Name <span>{{ currentProduct?.name }}</span>
-    </p>
-    <p>
-      Price <span>{{ currentProduct?.pricePerUnit }}</span>
-    </p>
-    <p>
-      Unit <span>{{ currentProduct?.unit }}</span>
-    </p>
+    <h1 class="title">{{ product?.title }}</h1>
+    <div class="p-4">
+      <NuxtImg :src="product?.image"
+      sizes="70vw sm:30vw md:400px"
+      class="border rounded-lg bg-white p-4 my-4 mx-auto"
+      placeholder />
+      <p>
+        {{ product?.description }}
+      </p>
+      <p class="mt-4 font-bold">{{ formatUSD(product?.price) }}</p>
+    </div>
   </div>
 </template>
 
 <script setup>
-import productList from "~/assets/json/productList.json";
+definePageMeta({
+  layout: "products",
+});
+
 const { productID } = useRoute().params;
-const currentProduct = productList?.find((item) => item.id == productID);
+
+const { data: product } = await useFetch(
+  `https://fakestoreapi.com/products/${productID}`
+);
 </script>
 
 <style lang="scss" scoped>
