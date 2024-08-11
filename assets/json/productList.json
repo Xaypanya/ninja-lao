@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Tiger head water",
+    "quantity": 100,
+    "unit": "Bottle",
+    "pricePerUnit": 6000
+  },
+  {
+    "id": 2,
+    "name": "Coca-Cola",
+    "quantity": 150,
+    "unit": "Can",
+    "pricePerUnit": 8000
+  },
+  {
+    "id": 3,
+    "name": "Pepsi",
+    "quantity": 120,
+    "unit": "Can",
+    "pricePerUnit": 7500
+  },
+  {
+    "id": 4,
+    "name": "Sprite",
+    "quantity": 130,
+    "unit": "Can",
+    "pricePerUnit": 7000
+  },
+  {
+    "id": 5,
+    "name": "Fanta Orange",
+    "quantity": 100,
+    "unit": "Bottle",
+    "pricePerUnit": 9000
+  },
+  {
+    "id": 6,
+    "name": "Mountain Dew",
+    "quantity": 140,
+    "unit": "Can",
+    "pricePerUnit": 8500
+  },
+  {
+    "id": 7,
+    "name": "Red Bull",
+    "quantity": 200,
+    "unit": "Bottle",
+    "pricePerUnit": 10000
+  },
+  {
+    "id": 8,
+    "name": "7-Up",
+    "quantity": 110,
+    "unit": "Can",
+    "pricePerUnit": 7500
+  },
+  {
+    "id": 9,
+    "name": "Mirinda",
+    "quantity": 90,
+    "unit": "Bottle",
+    "pricePerUnit": 6500
+  },
+  {
+    "id": 10,
+    "name": "Aquafina Water",
+    "quantity": 250,
+    "unit": "Bottle",
+    "pricePerUnit": 5000
+  },
+  {
+    "id": 11,
+    "name": "Lipton Ice Tea",
+    "quantity": 80,
+    "unit": "Can",
+    "pricePerUnit": 8500
+  },
+  {
+    "id": 12,
+    "name": "Nestea",
+    "quantity": 95,
+    "unit": "Bottle",
+    "pricePerUnit": 8000
+  },
+  {
+    "id": 13,
+    "name": "Gatorade",
+    "quantity": 60,
+    "unit": "Bottle",
+    "pricePerUnit": 9500
+  },
+  {
+    "id": 14,
+    "name": "Pocari Sweat",
+    "quantity": 100,
+    "unit": "Bottle",
+    "pricePerUnit": 9000
+  },
+  {
+    "id": 15,
+    "name": "Vitamin Water",
+    "quantity": 50,
+    "unit": "Bottle",
+    "pricePerUnit": 12000
+  },
+  {
+    "id": 16,
+    "name": "Monster Energy",
+    "quantity": 70,
+    "unit": "Can",
+    "pricePerUnit": 11000
+  },
+  {
+    "id": 17,
+    "name": "Minute Maid Orange Juice",
+    "quantity": 85,
+    "unit": "Bottle",
+    "pricePerUnit": 10000
+  },
+  {
+    "id": 18,
+    "name": "Tropicana Juice",
+    "quantity": 95,
+    "unit": "Bottle",
+    "pricePerUnit": 9500
+  },
+  {
+    "id": 19,
+    "name": "Oishi Green Tea",
+    "quantity": 120,
+    "unit": "Bottle",
+    "pricePerUnit": 8000
+  },
+  {
+    "id": 20,
+    "name": "C2 Green Tea",
+    "quantity": 130,
+    "unit": "Bottle",
+    "pricePerUnit": 7500
+  }
+]
