@@ -1,7 +1,17 @@
 <template>
    <header class="shadow-sm bg-white">
     <nav class="container mx-auto p-4 flex justify-between">
-      <NuxtLink to="/products" class="font-bold">Ninja Lao Merch</NuxtLink>
+      <NuxtLink to="/products" class="font-bold">
+        <div class="flex items-center">
+          <NuxtImg
+            src="/images/ninjalaologo.png"
+            loading="lazy"
+            fit="contain"
+            alt="ninja-lao-logo"
+            class="h-14 w-14 object-contain mx-auto"
+          />
+          <p>Ninja Lao Merch</p>
+        </div></NuxtLink>
   
     </nav>
   </header>

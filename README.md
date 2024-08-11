@@ -6,8 +6,11 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ```bash
 
-# bun
+# bun sass
 bun add sass-embedded
+
+# bun font
+bun add google-fonts
 
 ```
 
