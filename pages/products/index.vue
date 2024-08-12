@@ -17,6 +17,11 @@ definePageMeta({
   layout: "products",
 });
 
+useSeoMeta({
+  title: 'Ninja Lao Merch',
+  description: 'high-quality merchandise that blends the dynamic spirit of the modern ninja with the rich cultural heritage of Laos'
+})
+
 const isLoading = ref(true);
 
 // ## fetch products from api

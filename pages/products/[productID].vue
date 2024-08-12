@@ -7,6 +7,7 @@ definePageMeta({
   layout: "products",
 });
 
+
 const { productID } = useRoute().params;
 const productUri =  `https://fakestoreapi.com/products/${productID}`
 
@@ -22,6 +23,11 @@ if(!product.value){
     fatal: true
   })
 }
+
+useSeoMeta({
+  title: 'Ninja Lao Merch | ' + product.value?.title,
+  description: product.value?.description
+})
 
 </script>
 
