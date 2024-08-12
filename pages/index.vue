@@ -1,16 +1,15 @@
 <template>
   <div>
-    <h2>home</h2>
+    <h2 class="text-2xl text-center">Ninja Lao</h2>
     <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, id.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, id.
+      Welcome, Ninjas
     </p>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+
+</script>
 
 <style scoped>
 h2 {

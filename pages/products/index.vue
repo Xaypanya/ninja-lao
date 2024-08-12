@@ -4,6 +4,7 @@
     <p v-if="!isLoading" class="text-center mb-4">
       Products ( <span class="font-bold text-[#12b488]"> {{ productList?.length || 0 }} </span> )
     </p>
+    {{ productList }}
     <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-5">
       <div v-for="product in productList">
         <ProductCard :product="product" />
@@ -26,7 +27,7 @@ const isLoading = ref(true);
 
 // ## fetch products from api
 const { data: productList } = await useFetch(
-  "https://fakestoreapi.com/products"
+  "/api/product/all"
 ).then((res) => {
   isLoading.value = false;
 

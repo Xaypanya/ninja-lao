@@ -32,4 +32,7 @@ export default defineNuxtConfig({
   build: {
     transpile: ['sass-embedded']
   },
+  runtimeConfig: {
+    currencyApiKey: process.env.CURRENCY_API_KEY
+  }
 })
